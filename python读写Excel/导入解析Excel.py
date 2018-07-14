@@ -1,5 +1,5 @@
 import xlrd
-import pythonMySQL
+from pythonMySQL import python_mysql
 
 
 def read_file(file_url):
@@ -12,12 +12,7 @@ def read_file(file_url):
 
 
 def filter_excel(data, column_name=0, by_name='Sheet1'):
-    """
-    :param workbook:
-    :param column_name:
-    :param by_name: 对应的Sheet页
-    :return:
-    """
+    '''解析excel'''
     table = data.sheet_by_name(by_name)  # 获得表格
     total_rows = table.nrows  # 拿到总共行数
     columns = table.row_values(column_name)  # 某一行数据 ['姓名', '用户名', '联系方式', '密码']
@@ -35,12 +30,24 @@ def filter_excel(data, column_name=0, by_name='Sheet1'):
     return excel_list
 
 
+def operate_mysql(sql_obj):
+    pass
+
+
 def main():
+    # 输入目标文件,读取目标文件
     file_name = input("请输入您要导入的文件:")
     file_name = r'%s' % file_name
     data = read_file(file_name)
+    # 解析目标文件
     tables = filter_excel(data)
     for row in tables:
         print(row)
+    sql_obj = python_mysql("localhost", 3306, "excel", "root", "kingdee")
+    operate_mysql(sql_obj)
+
+    # 将数据写入数据库
+
+
 if __name__ == '__main__':
     main()
