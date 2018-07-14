@@ -29,11 +29,6 @@ def filter_excel(data, column_name=0, by_name='Sheet1'):
 
     return excel_list
 
-
-def operate_mysql(sql_obj):
-    pass
-
-
 def main():
     # 输入目标文件,读取目标文件
     file_name = input("请输入您要导入的文件:")
@@ -43,11 +38,6 @@ def main():
     tables = filter_excel(data)
     for row in tables:
         print(row)
-    sql_obj = python_mysql("localhost", 3306, "excel", "root", "kingdee")
-    operate_mysql(sql_obj)
-
-    # 将数据写入数据库
-
 
 if __name__ == '__main__':
     main()
