@@ -30,11 +30,11 @@ def read_excel():
         print(eval(format_str))
 
     # 获取单元格内容的三种方法
-    print(sheet_info.cell(1, 0).value.encode('utf-8'))
-    print(sheet_info.cell_value(1, 0).encode('utf-8'))
-    print(sheet_info.row(1)[0].value.encode('utf-8'))
+    # print(sheet_info.cell(1, 0).value.encode('utf-8'))
+    # print(sheet_info.cell_value(1, 0).encode('utf-8'))
+    # print(sheet_info.row(1)[0].value.encode('utf-8'))
     # 获取单元格内容的数据类型
-    print(sheet_info.cell(1, 3).ctype)
+    # print(sheet_info.cell(1, 3).ctype)
 
 
 if __name__ == '__main__':
