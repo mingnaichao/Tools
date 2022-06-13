@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b9726c-bb18-402f-bfef-2e5de59ea862" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/文件解析/export_file.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件解析/export_file.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文件解析/export_file.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件解析/解析JSON.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件解析/解析JSON.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/pict.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/pict.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/zm6.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/zm6.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/图片写进excel1/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/图片写进excel1/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/图片写进excel1/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/图片写进excel1/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/图片写进excel1/pict.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/图片写进excel1/pict.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/图片写进excel1/图片写入excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/图片写进excel1/图片写入excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/图片写进excel2/777.XLSX" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/图片写进excel2/777.XLSX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/图片写进excel2/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/图片写进excel2/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/导入解析Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/导入解析Excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/python读写Excel/组合使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/Python读写Excel/组合使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析excel/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excel解析/read_excel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +79,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,7 +88,7 @@
       <recent name="$PROJECT_DIR$/文件解析/JSON源文件" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.read_excel">
     <configuration name="解析JSON" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,8 +110,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excel解析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excel解析/read_excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.read_excel" />
         <item itemvalue="Python.解析JSON" />
       </list>
     </recent_temporary>
@@ -168,6 +202,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Excel解析/read_excel.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

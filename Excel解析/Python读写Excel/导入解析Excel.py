@@ -12,7 +12,7 @@ def read_file(file_url):
 
 
 def filter_excel(data, column_name=0, by_name='Sheet1'):
-    '''解析excel'''
+    '''Excel解析'''
     table = data.sheet_by_name(by_name)  # 获得表格
     total_rows = table.nrows  # 拿到总共行数
     columns = table.row_values(column_name)  # 某一行数据 ['姓名', '用户名', '联系方式', '密码']

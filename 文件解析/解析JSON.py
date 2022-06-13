@@ -55,4 +55,4 @@ for i in range(0, len(insert_data)):
         sheet.write(i + 1, j, data[j])
 # endregion
 
-book.save('export_file.xlsx')
+book.save('export_file.xls')
